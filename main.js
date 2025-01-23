@@ -7,7 +7,7 @@ const port = 3000
 app.use(express.static('public'))
 //app.get or app.post or app.put or app.delete(path,handler);
 app.get('/', (req, res) => {
-  res.send('Hello World123!')
+  res.send('Hello World1234!')
 })
 app.get('/about', (req, res) => {
   res.send('Hello about!')
